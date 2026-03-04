@@ -2,13 +2,20 @@
   "id": "5480f76c-f154-44eb-a130-4504f3947285",
   "name": "KemipexTestExt",
   "publisher": "Kemipex",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
+  "brief": "Kemipex development test extension",
+  "description": "Testing AL customizations such as UI changes and toggles.",
   "platform": "27.0.0.0",
   "application": "27.3.0.0",
   "runtime": "14.0",
   "idRanges": [
-    { "from": 50300, "to": 50399 }
+    {
+      "from": 50300,
+      "to": 50399
+    }
   ],
   "dependencies": [],
-  "features": [ "NoImplicitWith" ]
+  "features": [
+    "NoImplicitWith"
+  ]
 }
